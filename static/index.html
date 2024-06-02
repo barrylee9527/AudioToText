@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<!-- 引入Vue -->
+	<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+	<!-- <script src="js/vue.min.js" type="text/javascript" charset="utf-8"></script> -->
+	<!-- 引入element-ui样式/组件库 -->
+	<link rel="stylesheet" type="text/css" href="./css/element-ui.css">
+	<script src="./js/element-ui.js" type="text/javascript" charset="utf-8"></script>
+	<!-- 引入umy-ui样式/组件库 -->
+	<link rel="stylesheet" type="text/css" href="./css/umy-ui.css">
+	<script src="./js/umy-ui.js" type="text/javascript" charset="utf-8"></script>
+	<!-- 引入自定义CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/my.css" />
+</head>
+
+<body>
+	<div id="app">
+		<el-row :gutter="20">
+			<el-col :span="23">
+				<el-input v-model="target" ref="clearText" placeholder="请输入音频文件完整路径，或者点击右侧上传按钮来上传音频文件">
+					<el-button type="primary" slot="append" @click="openFile">上传音频<i class="el-icon-upload el-icon--right"></i></el-button>
+				</el-input>
+			</el-col>
+
+		</el-row>
+		<el-row :gutter="20">
+			<el-col :span="4" class="center">
+				<el-button type="primary" icon="el-icon-check" @click="start_upload" :loading="loading" :disabled="sendDisabled">开始转换</el-button>
+			</el-col>
+			<el-col :span="4" class="center">
+				<el-button type="primary" icon="el-icon-switch-button" @click="stop_search" :loading="stop_loading">停止转换</el-button>
+			</el-col>
+			<el-col :span="4" class="center">
+				<el-button type="primary" icon="el-icon-delete" @click="clear_content">清空内容</el-button>
+			</el-col>
+			<el-col :span="4" class="center">
+				<el-button type="primary" icon="el-icon-user" @click="register">注册软件</el-button>
+			</el-col>
+			<el-col :span="4" class="center">
+				<el-button type="primary" icon="el-icon-user" @click="api_configuration">接口配置</el-button>
+			</el-col>
+		</el-row>
+		<el-row :gutter="20">
+			<el-col :span="24">
+                <el-input v-model="field127" type="textarea" placeholder="请输入转换后的文本显示。您也可以在转换后自己编辑"
+          show-word-limit :autosize="{minRows: 21, maxRows: 32}" :style="{width: '100%'}"></el-input>
+			</el-col>
+		</el-row>
+		<el-dialog title="接口配置" :visible.sync="dialogFormVisible">
+		  <el-form :model="form">
+			<el-form-item label="APPID" :label-width="formLabelWidth">
+			  <el-input v-model="form.apikey" autocomplete="off"></el-input>
+			</el-form-item>
+			<el-form-item label="SecretKey" :label-width="formLabelWidth">
+			  <el-input v-model="form.apisercret" autocomplete="off"></el-input>
+			</el-form-item>
+		  </el-form>
+		  <div slot="footer" class="dialog-footer">
+			<el-button @click="dialogFormVisible = false">取 消</el-button>
+			<el-button type="primary" @click="apt_confirm">确 定</el-button>
+		  </div>
+		</el-dialog>
+</div>
+</body>
+<!-- 引入自定义JS，Vue只能在页面底部创建 -->
+<script src="js/my.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

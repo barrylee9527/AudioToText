@@ -1,0 +1,167 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="1835" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredUrls">
+        <list>
+          <option value="http://localhost" />
+          <option value="http://127.0.0.1" />
+          <option value="http://0.0.0.0" />
+          <option value="http://www.w3.org/" />
+          <option value="http://json-schema.org/draft" />
+          <option value="http://java.sun.com/" />
+          <option value="http://xmlns.jcp.org/" />
+          <option value="http://javafx.com/javafx/" />
+          <option value="http://javafx.com/fxml" />
+          <option value="http://maven.apache.org/xsd/" />
+          <option value="http://maven.apache.org/POM/" />
+          <option value="http://www.springframework.org/schema/" />
+          <option value="http://www.springframework.org/tags" />
+          <option value="http://www.springframework.org/security/tags" />
+          <option value="http://www.thymeleaf.org" />
+          <option value="http://www.jboss.org/j2ee/schema/" />
+          <option value="http://www.jboss.com/xml/ns/" />
+          <option value="http://www.ibm.com/webservices/xsd" />
+          <option value="http://activemq.apache.org/schema/" />
+          <option value="http://schema.cloudfoundry.org/spring/" />
+          <option value="http://schemas.xmlsoap.org/" />
+          <option value="http://cxf.apache.org/schemas/" />
+          <option value="http://primefaces.org/ui" />
+          <option value="http://tiles.apache.org/" />
+          <option value="http://" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="88">
+            <item index="0" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="1" class="java.lang.String" itemvalue="scikit-image" />
+            <item index="2" class="java.lang.String" itemvalue="pandas" />
+            <item index="3" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="4" class="java.lang.String" itemvalue="numpy" />
+            <item index="5" class="java.lang.String" itemvalue="dlib" />
+            <item index="6" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="7" class="java.lang.String" itemvalue="Scrapy" />
+            <item index="8" class="java.lang.String" itemvalue="pymongo" />
+            <item index="9" class="java.lang.String" itemvalue="requests" />
+            <item index="10" class="java.lang.String" itemvalue="thop" />
+            <item index="11" class="java.lang.String" itemvalue="scipy" />
+            <item index="12" class="java.lang.String" itemvalue="protobuf" />
+            <item index="13" class="java.lang.String" itemvalue="timm" />
+            <item index="14" class="java.lang.String" itemvalue="pytest" />
+            <item index="15" class="java.lang.String" itemvalue="cython" />
+            <item index="16" class="java.lang.String" itemvalue="cityscapesscripts" />
+            <item index="17" class="java.lang.String" itemvalue="sklearn" />
+            <item index="18" class="java.lang.String" itemvalue="asynctest" />
+            <item index="19" class="java.lang.String" itemvalue="flake8" />
+            <item index="20" class="java.lang.String" itemvalue="imagecorruptions" />
+            <item index="21" class="java.lang.String" itemvalue="onnxruntime" />
+            <item index="22" class="java.lang.String" itemvalue="interrogate" />
+            <item index="23" class="java.lang.String" itemvalue="mmtrack" />
+            <item index="24" class="java.lang.String" itemvalue="isort" />
+            <item index="25" class="java.lang.String" itemvalue="kwarray" />
+            <item index="26" class="java.lang.String" itemvalue="onnx" />
+            <item index="27" class="java.lang.String" itemvalue="xdoctest" />
+            <item index="28" class="java.lang.String" itemvalue="codecov" />
+            <item index="29" class="java.lang.String" itemvalue="ubelt" />
+            <item index="30" class="java.lang.String" itemvalue="altgraph" />
+            <item index="31" class="java.lang.String" itemvalue="absl-py" />
+            <item index="32" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="33" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="34" class="java.lang.String" itemvalue="PyQt5-sip" />
+            <item index="35" class="java.lang.String" itemvalue="cycler" />
+            <item index="36" class="java.lang.String" itemvalue="mkl-random" />
+            <item index="37" class="java.lang.String" itemvalue="torchvision" />
+            <item index="38" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="39" class="java.lang.String" itemvalue="mkl-fft" />
+            <item index="40" class="java.lang.String" itemvalue="tensorboard-plugin-wit" />
+            <item index="41" class="java.lang.String" itemvalue="PyQt5" />
+            <item index="42" class="java.lang.String" itemvalue="zipp" />
+            <item index="43" class="java.lang.String" itemvalue="certifi" />
+            <item index="44" class="java.lang.String" itemvalue="oauthlib" />
+            <item index="45" class="java.lang.String" itemvalue="pywin32-ctypes" />
+            <item index="46" class="java.lang.String" itemvalue="urllib3" />
+            <item index="47" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="48" class="java.lang.String" itemvalue="pyinstaller" />
+            <item index="49" class="java.lang.String" itemvalue="six" />
+            <item index="50" class="java.lang.String" itemvalue="google-auth-oauthlib" />
+            <item index="51" class="java.lang.String" itemvalue="Werkzeug" />
+            <item index="52" class="java.lang.String" itemvalue="kiwisolver" />
+            <item index="53" class="java.lang.String" itemvalue="torch" />
+            <item index="54" class="java.lang.String" itemvalue="typing-extensions" />
+            <item index="55" class="java.lang.String" itemvalue="PyQtChart" />
+            <item index="56" class="java.lang.String" itemvalue="pefile" />
+            <item index="57" class="java.lang.String" itemvalue="pyinstaller-hooks-contrib" />
+            <item index="58" class="java.lang.String" itemvalue="chardet" />
+            <item index="59" class="java.lang.String" itemvalue="tqdm" />
+            <item index="60" class="java.lang.String" itemvalue="tensorboard" />
+            <item index="61" class="java.lang.String" itemvalue="future" />
+            <item index="62" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="63" class="java.lang.String" itemvalue="cachetools" />
+            <item index="64" class="java.lang.String" itemvalue="grpcio" />
+            <item index="65" class="java.lang.String" itemvalue="olefile" />
+            <item index="66" class="java.lang.String" itemvalue="google-auth" />
+            <item index="67" class="java.lang.String" itemvalue="idna" />
+            <item index="68" class="java.lang.String" itemvalue="mkl-service" />
+            <item index="69" class="java.lang.String" itemvalue="keyboard" />
+            <item index="70" class="java.lang.String" itemvalue="auditok" />
+            <item index="71" class="java.lang.String" itemvalue="you-get" />
+            <item index="72" class="java.lang.String" itemvalue="pymediainfo" />
+            <item index="73" class="java.lang.String" itemvalue="youtube-dl" />
+            <item index="74" class="java.lang.String" itemvalue="pyaudio" />
+            <item index="75" class="java.lang.String" itemvalue="cos-python-sdk-v5" />
+            <item index="76" class="java.lang.String" itemvalue="alibabacloud-nls-java-sdk" />
+            <item index="77" class="java.lang.String" itemvalue="audiotsm" />
+            <item index="78" class="java.lang.String" itemvalue="aliyun-python-sdk-core" />
+            <item index="79" class="java.lang.String" itemvalue="oss2" />
+            <item index="80" class="java.lang.String" itemvalue="tencentcloud-sdk-python" />
+            <item index="81" class="java.lang.String" itemvalue="PyMuPDF" />
+            <item index="82" class="java.lang.String" itemvalue="lxml" />
+            <item index="83" class="java.lang.String" itemvalue="soupsieve" />
+            <item index="84" class="java.lang.String" itemvalue="xmltodict" />
+            <item index="85" class="java.lang.String" itemvalue="pycryptodome" />
+            <item index="86" class="java.lang.String" itemvalue="tinytag" />
+            <item index="87" class="java.lang.String" itemvalue="Pillow" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="W605" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N801" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="win32com.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
