@@ -1,11 +1,5 @@
 # -*- encoding: utf-8 -*-
 """
-@File    :   ui.py
-@Time    :   2021年04月02日 21:19:56 星期五
-@Author  :   erma0
-@Version :   1.0
-@Link    :   https://erma0.cn
-@Desc    :   UI界面
 """
 import json
 import webview
